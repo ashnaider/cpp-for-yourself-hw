@@ -16,9 +16,9 @@ int main() {
     };
 
     array endings {
-        "eats UB for breakfast"
+        "eats UB for breakfast",
         "finds errors quicker than the compiler",
-        "is not afraid of C++ error messages"
+        "is not afraid of C++ error messages",
     };
 
     vector<string> adjectives(2);
@@ -39,7 +39,8 @@ int main() {
     string adjective = adjectives.at(user_name.size() % adjectives.size());
     string noun = season2noun.at(user_born);
     string ending = endings.at(user_name.size() % endings.size());
-
+    
+    cout << "\nHere is your description:" << endl;
     cout << user_name + ", the " + adjective + " " + noun + " that " + ending << endl;
 
     return 0;       
