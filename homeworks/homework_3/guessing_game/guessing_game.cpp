@@ -25,7 +25,7 @@ int main() {
     int guess_count{0};
     while (true) {
         ++guess_count;
-        cout << "Please provide the next guess:" << endl;
+        cout << "Please provide the next guess: ";
         cin >> guess;
         if (guess < rand_num) {
             cout << "Your number is too small. Try again!" << endl;
