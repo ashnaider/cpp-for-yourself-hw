@@ -10,10 +10,10 @@ int main() {
          << "I will generate a number and you will guess it!" 
          << endl;
 
-    cout << "Please provide the smallest number: " << endl;
+    cout << "Please provide the smallest number:" << endl;
     int left_border, right_border;
     cin >> left_border;
-    cout << "Please provide the largest number: " << endl;
+    cout << "Please provide the largest number:" << endl;
     cin >> right_border;
 
     std::uniform_int_distribution distribution{left_border, right_border};
