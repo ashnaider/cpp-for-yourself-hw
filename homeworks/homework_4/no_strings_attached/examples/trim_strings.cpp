@@ -15,7 +15,7 @@ int main() {
     std::getline(std::cin, str_to_trim);
 
     string delim = " ";
-    string res = no_strings_attached::string_trim::Trim(str_to_trim);
+    string res = no_strings_attached::Trim(str_to_trim);
 
     cout << "Your trimmed string: " << "'" << res << "'" << endl;
 

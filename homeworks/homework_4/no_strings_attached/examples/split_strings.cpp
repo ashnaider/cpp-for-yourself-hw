@@ -15,7 +15,7 @@ int main() {
     std::getline(std::cin, str_to_split);
 
     string delim = " ";
-    vector<string> res = no_strings_attached::string_split::Split(str_to_split, delim);
+    vector<string> res = no_strings_attached::Split(str_to_split, delim);
 
     cout << "Your split string: ";
 
