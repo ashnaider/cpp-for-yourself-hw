@@ -3,8 +3,6 @@
 #include <string>
 
 namespace no_strings_attached {
-namespace string_trim {
-
 
 std::string Trim(const std::string& str, char char_to_trim, Side side) {
     int i_left = 0;
@@ -42,5 +40,4 @@ std::string Trim(const std::string& str) {
 }
 
 
-}
 } // namespace no_strings_attached

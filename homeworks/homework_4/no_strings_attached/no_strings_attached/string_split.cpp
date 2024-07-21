@@ -3,7 +3,6 @@
 #include <iostream>
 
 namespace no_strings_attached {
-namespace string_split {
 
 std::vector<std::string> Split(const std::string& str, const std::string& delimeter) {
     std::vector<std::string> res;
@@ -53,4 +52,3 @@ std::string getSubStr(const std::string& str, size_t left, size_t right) {
 }
 
 } // namespace string_split
-}
