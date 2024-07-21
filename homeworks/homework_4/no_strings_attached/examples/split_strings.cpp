@@ -9,7 +9,7 @@ using std::string, std::vector;
 
 int main() {
     cout << "Example program that splits strings." << endl;
-    cout << "Please enter a string:";
+    cout << "Please enter a string:" << endl;
 
     string str_to_split;
     std::getline(std::cin, str_to_split);

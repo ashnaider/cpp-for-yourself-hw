@@ -9,7 +9,7 @@ using std::string, std::vector;
 
 int main() {
     cout << "Example program that trims strings." << endl;
-    cout << "Please enter a string:";
+    cout << "Please enter a string:" << endl;
 
     string str_to_trim;
     std::getline(std::cin, str_to_trim);
